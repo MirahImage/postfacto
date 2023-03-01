@@ -5,7 +5,7 @@ This software was developed by Pivotal and has been forked after the untimely de
 
 ## Deployment
 
-1. Download and extract the latest `package.zip` from the [releases page](https://github.com/MirahImage/postfacto/releases)
+1. Clone this repository.
 1. Choose a name for your app, we'll refer to this as `app-name` from now on
 1. _[Strongly recommended]_ Choose an admin email and password to override the defaults (`email@example.com` and `password` respectively), we'll refer to these as `admin-email` and `admin-password` from now on
 1. _[Optional]_ Configure your deployment:
