@@ -1,6 +1,9 @@
-# Deployment
+# Postfacto
+A free, open-source and self-hosted retro tool aimed at helping remote teams.
 
-1. Download and extract the latest `package.zip` from the [releases page](https://github.com/pivotal/postfacto/releases)
+## Deployment
+
+1. Download and extract the latest `package.zip` from the [releases page](https://github.com/MirahImage/postfacto/releases)
 1. Choose a name for your app, we'll refer to this as `app-name` from now on
 1. _[Strongly recommended]_ Choose an admin email and password to override the defaults (`email@example.com` and `password` respectively), we'll refer to these as `admin-email` and `admin-password` from now on
 1. _[Optional]_ Configure your deployment:
@@ -138,7 +141,7 @@ However, note that for larger retros the live websocket updates may stop working
     ./deploy.sh <app-name>
     ```
 
-1. Keep note of the application url output by the deployment script, going forward referred to as `tkg-url` 
+1. Keep note of the application url output by the deployment script, going forward referred to as `tkg-url`
 1. Log in to the admin dashboard at `<tkg-url>/admin` (email: `email@example.com` and password: `password`)
 1. Create a retro for yourself by clicking on 'Retros' and then 'New Retro'
 1. Log in to your retro at `<tkg-url>/retros/your-retro-slug`
