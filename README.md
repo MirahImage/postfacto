@@ -1,6 +1,8 @@
 # Postfacto
 A free, open-source and self-hosted retro tool aimed at helping remote teams.
 
+This software was developed by Pivotal and has been forked after the untimely deletion from the github.com/pivotal org by VMware. Unfortunately, the entire commit history was lost in the fork. If you are in possession of a copy of the repo with the commit history, please let me know!
+
 ## Deployment
 
 1. Download and extract the latest `package.zip` from the [releases page](https://github.com/MirahImage/postfacto/releases)
